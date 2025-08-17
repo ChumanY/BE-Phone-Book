@@ -1,0 +1,25 @@
+{
+  "name": "be-phone-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChumanY/BE-Phone-Book.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChumanY/BE-Phone-Book/issues"
+  },
+  "homepage": "https://github.com/ChumanY/BE-Phone-Book#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "joi": "^18.0.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
