@@ -1,7 +1,9 @@
 const express = require('express');
 const Joi = require('joi');
 const swaggerUi = require('swagger-ui-express');
+const cors = require('cors');
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 let contacts = [];

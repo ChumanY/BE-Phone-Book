@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contactos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Agenda de Contactos</h1>
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Nombre" required>
+        <input type="text" id="phone" placeholder="Teléfono" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <button type="submit">Agregar Contacto</button>
+        <div id="formError" class="error"></div>
+    </form>
+    <div class="contact-list" id="contactList">
+        <h2>Contactos</h2>
+        <div id="contacts"></div>
+    </div>
+    <form id="getByIdForm">
+        <h2>Buscar contacto por ID</h2>
+        <input type="number" id="searchId" placeholder="ID de contacto" required>
+        <button type="submit">Buscar</button>
+        <div id="searchResult"></div>
+    </form>
+    <form id="updateForm">
+        <h2>Actualizar contacto</h2>
+        <input type="number" id="updateId" placeholder="ID de contacto" required>
+        <input type="text" id="updateName" placeholder="Nuevo nombre" required>
+        <input type="text" id="updatePhone" placeholder="Nuevo teléfono" required>
+        <input type="email" id="updateEmail" placeholder="Nuevo email" required>
+        <button type="submit">Actualizar</button>
+        <div id="updateError" class="error"></div>
+        <div id="updateSuccess"></div>
+    </form>
+    <script src="app.js"></script>
+</body>
+
+</html>

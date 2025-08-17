@@ -11,6 +11,7 @@ API backend para la gestión de contactos (agenda telefónica). Permite crear, l
 - Joi (validaciones)
 - Swagger (OpenAPI)
 
+
 ## Cómo iniciar el proyecto
 
 1. Instala las dependencias:
@@ -25,6 +26,24 @@ API backend para la gestión de contactos (agenda telefónica). Permite crear, l
    ```
    http://localhost:3000/api-docs
    ```
+
+## Mini Frontend
+
+Se añadió un mini frontend en la carpeta `frontend/` para probar la API de contactos de forma visual.
+
+Estructura:
+```
+frontend/
+  index.html   # Página principal
+  styles.css   # Estilos
+  app.js       # Lógica JavaScript
+```
+
+### Cómo usar el frontend
+
+1. Asegúrate de que el servidor backend esté corriendo (`node index.js`).
+2. Abre `frontend/index.html` en tu navegador.
+3. Podrás crear, listar, buscar por ID, actualizar y eliminar contactos desde la interfaz.
 
 ---
 
@@ -53,3 +72,21 @@ Backend API for managing contacts (phone book). Allows you to create, read, upda
    ```
    http://localhost:3000/api-docs
    ```
+
+## Mini Frontend
+
+A mini frontend was added in the `frontend/` folder to visually test the contacts API.
+
+Structure:
+```
+frontend/
+  index.html   # Main page
+  styles.css   # Styles
+  app.js       # JavaScript logic
+```
+
+### How to use the frontend
+
+1. Make sure the backend server is running (`node index.js`).
+2. Open `frontend/index.html` in your browser.
+3. You can create, list, search by ID, update, and delete contacts from the interface.

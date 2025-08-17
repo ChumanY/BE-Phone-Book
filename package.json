@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ChumanY/BE-Phone-Book#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "joi": "^18.0.0",
     "swagger-ui-express": "^5.0.1"
